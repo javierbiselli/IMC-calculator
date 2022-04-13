@@ -1,4 +1,4 @@
-let persona = [nombre=prompt("Cual es tu nombre?"), peso = prompt("Cuanto pesas? (en kg, por ej: 70)"), altura = prompt ("Cuanto medis? (en metros, ej: 1.76)", imc = undefined)]
+let persona = [nombre=prompt("Cual es tu nombre?"), peso = prompt("Cuanto pesas? (en kg, por ej: 70)"), altura = prompt ("Cuanto medis? (en metros, ej: 1.76, usar punto, no coma)", imc = undefined)]
 
 function calcularImc (peso, altura) {
     return persona[3] = (peso/altura**2).toFixed(2)
